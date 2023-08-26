@@ -7,12 +7,12 @@ function Nav() {
   ];
 
   return (
-    <header className="bg-slate-800 sm:px-16 px-8 py-4 w-full sticky top-0">
-      <nav className="flex justify-between items-center mx-auto my-0">
-        <ul className="text-white flex-1 flex justify-center items-center lg:gap-32 gap-16">
+    <header className="bg-slate-800 sm:px-12 py-2 w-full sticky top-0 opacity-90">
+      <nav className="flex justify-between items-center">
+        <ul className="text-white flex-1 flex justify-center items-center lg:gap-28 gap-6">
           {navLinks.map((item) => (
             <li key={item.label}>
-              <a href={item.href} className="leading-normal text-lg">
+              <a href={item.href} className="leading-normal text-xl">
                 {item.label}
               </a>
             </li>

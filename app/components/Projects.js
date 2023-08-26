@@ -6,7 +6,10 @@ export default function Projects() {
     { image: "", title: "Project4", description: "description4" },
   ];
   return (
-    <div className="flex flex-col py-10 items-center w-full bg-slate-100 ">
+    <section
+      id="projects"
+      className="flex flex-col py-10 items-center w-full bg-slate-100 "
+    >
       <h1 className="font-bold text-4xl">Projects</h1>
       <div className="w-full flex flex-wrap flex-1 justify-around p-5 gap-3">
         {Projects.map((project) => (
@@ -27,6 +30,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

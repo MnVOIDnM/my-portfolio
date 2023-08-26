@@ -11,11 +11,11 @@ export default function App() {
   console.log(errors);
 
   return (
-    <div className="flex flex-col items-center w-full py-10">
+    <section id="contact" className="flex flex-col items-center w-full py-10">
       <h1 className="font-bold text-4xl pb-5">Contact me</h1>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col items-center gap-2 bg-red-200 max-w-sm w-full"
+        className="flex flex-col items-center gap-2 max-w-sm w-full"
       >
         <input
           className="block w-full border rounded-lg p-3 text-xl"
@@ -40,6 +40,6 @@ export default function App() {
         </div>
         <p>Form doesn't work now.</p>
       </form>
-    </div>
+    </section>
   );
 }
