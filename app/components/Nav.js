@@ -1,16 +1,15 @@
-import { Bars3Icon } from "@heroicons/react/24/outline";
-
 function Nav() {
   const navLinks = [
-    { label: "Home", href: "/" },
-    { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" },
+    { label: "Home", href: "#home" },
+    { label: "About", href: "#about" },
+    { label: "Projects", href: "#projects" },
+    { label: "Contact", href: "#contact" },
   ];
 
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
-      <nav className="flex justify-between items-center max-w-screen-xl mx-auto my-0">
-        <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+    <header className="bg-slate-800 sm:px-16 px-8 py-4 w-full sticky top-0">
+      <nav className="flex justify-between items-center mx-auto my-0">
+        <ul className="text-white flex-1 flex justify-center items-center lg:gap-32 gap-16">
           {navLinks.map((item) => (
             <li key={item.label}>
               <a href={item.href} className="leading-normal text-lg">
@@ -19,9 +18,6 @@ function Nav() {
             </li>
           ))}
         </ul>
-        <div className="hidden max-lg:block">
-          <Bars3Icon className="h-6 w-6 ml-3" />
-        </div>
       </nav>
     </header>
   );
