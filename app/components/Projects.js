@@ -1,9 +1,22 @@
+import Image from "next/image";
+
 export default function Projects() {
   const Projects = [
-    { image: "", title: "Project1", description: "description1" },
-    { image: "", title: "Project2", description: "description2" },
-    { image: "", title: "Project3", description: "description3" },
-    { image: "", title: "Project4", description: "description4" },
+    {
+      image: "/../pref-quiz-app-image.png",
+      title: "都道府県クイズアプリ",
+      description: "Vite + Chakra UI + Firebase",
+    },
+    {
+      image: "/../capital-quiz-app-image.png",
+      title: "県庁所在地クイズアプリ",
+      description: "Vite + Chakra UI + Firebase",
+    },
+    {
+      image: "/../cols-calc-app-image.png",
+      title: "筆算練習アプリ",
+      description: "Vite + Chakra UI",
+    },
   ];
   return (
     <section
@@ -17,9 +30,11 @@ export default function Projects() {
             key={project.title}
             className="w-80 rounded-lg border shadow-md hover:shadow-2xl p-3 flex flex-col gap-3 transition duration-500 ease-in-out"
           >
-            <img
-              className="relative w-[78px] h-[78px]"
-              alt=""
+            <Image
+              className="relative rounded-lg"
+              width={300}
+              height={200}
+              alt={project.title}
               src={project.image}
             />
             <h3 className="text-center">{project.title}</h3>

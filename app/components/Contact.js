@@ -18,19 +18,19 @@ export default function App() {
         className="flex flex-col items-center gap-2 max-w-sm w-full"
       >
         <input
-          className="block w-full border rounded-lg p-3 text-xl"
+          className="block w-full border rounded-lg p-3 text-lg"
           type="text"
           placeholder="Name"
           {...register("Name", { required: true, maxLength: 80 })}
         />
         <input
-          className="block w-full border rounded-lg p-3 text-xl"
+          className="block w-full border rounded-lg p-3 text-lg"
           type="email"
           placeholder="Email"
           {...register("Email", { required: true, pattern: /^\S+@\S+$/i })}
         />
         <textarea
-          className="block w-full border rounded-lg min-h-[100px] max-h-[200px] p-3 text-xl"
+          className="block w-full border rounded-lg min-h-[100px] max-h-[200px] p-3 text-lg"
           type="text"
           placeholder="Comments"
           {...register("Comments", { required: true })}
