@@ -20,11 +20,11 @@ const About = () => {
   return (
     <section id="about" className="flex flex-col py-10 items-center w-full">
       <h1 className="leading-10 font-bold text-4xl">About me</h1>
-      <div className="w-full flex justify-around flex-wrap p-5 gap-5">
+      <div className="w-full flex justify-around flex-wrap p-5 gap-3">
         {aboutMe.map((item, index) => (
           <div
             key={index}
-            className="flex flex-1 flex-col text-white rounded-lg bg-gradient-to-br from-slate-600 to-slate-400 p-3 "
+            className="flex flex-col w-[400px] text-white rounded-lg bg-gradient-to-br from-slate-600 to-slate-400 p-3 "
           >
             <h2 className="text-center text-4xl">{item.label}</h2>
             <p className="p-3 whitespace-pre-wrap">{item.description}</p>

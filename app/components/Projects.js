@@ -38,7 +38,9 @@ export default function Projects() {
               src={project.image}
             />
             <h3 className="text-center">{project.title}</h3>
-            <p className=" text-gray-600">{project.description}</p>
+            <p className=" text-gray-600 whitespace-pre-wrap">
+              {project.description}
+            </p>
             <a className="text-blue-400 hover:text-blue-800 cursor-pointer">
               View details
             </a>
