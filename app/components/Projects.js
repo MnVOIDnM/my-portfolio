@@ -3,17 +3,17 @@ import Image from "next/image";
 export default function Projects() {
   const Projects = [
     {
-      image: "/../pref-quiz-app-image.png",
+      image: "/pref-quiz-app-image.png",
       title: "都道府県クイズアプリ",
       description: "Vite + Chakra UI + Firebase",
     },
     {
-      image: "/../capital-quiz-app-image.png",
+      image: "/capital-quiz-app-image.png",
       title: "県庁所在地クイズアプリ",
       description: "Vite + Chakra UI + Firebase",
     },
     {
-      image: "/../cols-calc-app-image.png",
+      image: "/cols-calc-app-image.png",
       title: "筆算練習アプリ",
       description: "Vite + Chakra UI",
     },
