@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRightIcon } from "@heroicons/react/24/outline";
+import { BsBoxArrowUpRight } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
@@ -27,6 +27,13 @@ export default function Projects() {
         "Vite + Chakra UI\n学校で使っていた筆算の学習アプリが使いにくかったので、勢いで作ったがすぐ飽きて更新停止。\nいつか手書き文字認識に対応させて作り直したい。",
       URL: "https://cols-calc-app.vercel.app/",
       githubURL: "https://github.com/MnVOIDnM/cols-calc-app",
+    },
+    {
+      image: "/typing-game-image.png",
+      title: "タイピングゲーム",
+      description: "Working...",
+      URL: "https://typing-game-rouge.vercel.app/",
+      githubURL: "https://github.com/MnVOIDnM/typing-game",
     },
   ];
   return (
@@ -67,7 +74,7 @@ export default function Projects() {
                 className="flex justify-between items-center py-1 px-4 rounded-full text-white text-lg bg-blue-400 hover:bg-blue-600 transition duration-500 ease-in-out cursor-pointer"
               >
                 Visit
-                <ArrowRightIcon className="w-6 h-6 p-0.5 ml-3 rounded-full bg-white text-blue-400" />
+                <BsBoxArrowUpRight className="w-3 h-3 ml-3" />
               </a>
             </div>
           </div>
