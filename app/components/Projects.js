@@ -31,7 +31,8 @@ export default function Projects() {
     {
       image: "/typing-game-image.png",
       title: "タイピングゲーム",
-      description: "Working...",
+      description:
+        "Next.js + tailwindcss\nSupabaseを使うためにPostgreSQLを勉強中",
       URL: "https://typing-game-rouge.vercel.app/",
       githubURL: "https://github.com/MnVOIDnM/typing-game",
     },

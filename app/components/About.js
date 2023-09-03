@@ -7,13 +7,12 @@ const About = () => {
     },
     {
       label: "Bio.",
-      description:
-        "フルスタックエンジニア目指してがんばってます。",
+      description: "フルスタックエンジニア目指してがんばってます。",
     },
     {
       label: "Skills",
       description:
-        "HTML, CSS, Javascript, React, Recoil\nTailwindcss, Chakra UI\nFirebase\n↓--Leaning--↓\nNext.js, Typescript, Python, SQL, Github\nそろそろバックエンドの勉強をしっかり始めたい。",
+        "HTML, CSS, Javascript, React, Recoil\ntailwindcss, Chakra UI\nFirebase\n↓--Leaning--↓\nNext.js, Typescript, Python, SQL, Github\nそろそろバックエンドの勉強をしっかり始めたい。",
     },
   ];
 
