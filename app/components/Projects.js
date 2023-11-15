@@ -8,7 +8,7 @@ export default function Projects() {
       image: "/pref-quiz-app-image.png",
       title: "都道府県クイズアプリ",
       description:
-        "Vite + Chakra UI + Firebase。\n初めて自作したサイト。\nFirebaseの認証機能がiPadでうまく動作せず断念し、更新停止。\n現在県庁所在地アプリなどと統合した新たなサイトを作成中。",
+        "Vite + Chakra UI + Firebase。\n初めて自作したサイト。\nFirebaseの認証機能がiPadでうまく動作せず断念し、更新停止",
       URL: "http://pref-quiz.miyacode.jp/",
       githubURL: "https://github.com/MnVOIDnM/pref-quiz-app",
     },
@@ -16,7 +16,7 @@ export default function Projects() {
       image: "/capital-quiz-app-image.png",
       title: "県庁所在地クイズアプリ",
       description:
-        "Vite + Chakra UI + Firebase。\n都道府県アプリと同じ作りなので、どれくらいの早さでつくれるか試したもの。\nここまでcssをほとんど勉強せずにいたので、そろそろ勉強しようと意識し始める。",
+        "Vite + Chakra UI + Firebase。\n都道府県アプリと同じ作りなので、どれくらいの早さでつくれるか試したもの。",
       URL: "http://capital-quiz.miyacode.jp/",
       githubURL: "https://github.com/MnVOIDnM/capital-quiz-app",
     },
@@ -24,7 +24,7 @@ export default function Projects() {
       image: "/cols-calc-app-image.png",
       title: "筆算練習アプリ",
       description:
-        "Vite + Chakra UI\n学校で使っていた筆算の学習アプリが使いにくかったので、勢いで作ったがすぐ飽きて更新停止。\nいつか手書き文字認識に対応させて作り直したい。",
+        "Vite + Chakra UI\n手書きのアプリが作りたくて勢いで作ったがすぐ飽きて更新停止。\nいつか手書き文字認識に対応させて作り直したい。",
       URL: "https://cols-calc-app.vercel.app/",
       githubURL: "https://github.com/MnVOIDnM/cols-calc-app",
     },
@@ -32,7 +32,7 @@ export default function Projects() {
       image: "/typing-game-image.png",
       title: "タイピングゲーム",
       description:
-        "Next.js + tailwindcss\nSupabaseを使うためにPostgreSQLを勉強中",
+        "Next.js + tailwindcss\nタイピングゲームがどのように動いているか気になって作ってみた。",
       URL: "https://typing-game-rouge.vercel.app/",
       githubURL: "https://github.com/MnVOIDnM/typing-game",
     },
@@ -47,7 +47,7 @@ export default function Projects() {
         {Projects.map((project) => (
           <div
             key={project.title}
-            className="w-80 rounded-lg border shadow-md p-3 flex flex-col gap-3 "
+            className="w-80 rounded-lg border shadow-md p-3 flex flex-col gap-3"
           >
             <Image
               className="relative rounded-lg"
